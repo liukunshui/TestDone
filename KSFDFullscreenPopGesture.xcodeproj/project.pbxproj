@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E1C934F1E14F1FA007D394D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C934E1E14F1FA007D394D /* main.m */; };
+		7E1C93521E14F1FA007D394D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C93511E14F1FA007D394D /* AppDelegate.m */; };
+		7E1C93551E14F1FA007D394D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C93541E14F1FA007D394D /* ViewController.m */; };
+		7E1C93581E14F1FA007D394D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1C93561E14F1FA007D394D /* Main.storyboard */; };
+		7E1C935A1E14F1FA007D394D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1C93591E14F1FA007D394D /* Assets.xcassets */; };
+		7E1C935D1E14F1FA007D394D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1C935B1E14F1FA007D394D /* LaunchScreen.storyboard */; };
+		7E1C93681E14F1FA007D394D /* KSFDFullscreenPopGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C93671E14F1FA007D394D /* KSFDFullscreenPopGestureTests.m */; };
+		7E1C93731E14F1FA007D394D /* KSFDFullscreenPopGestureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C93721E14F1FA007D394D /* KSFDFullscreenPopGestureUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E1C93641E14F1FA007D394D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E1C93421E14F1F9007D394D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E1C93491E14F1FA007D394D;
+			remoteInfo = KSFDFullscreenPopGesture;
+		};
+		7E1C936F1E14F1FA007D394D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E1C93421E14F1F9007D394D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E1C93491E14F1FA007D394D;
+			remoteInfo = KSFDFullscreenPopGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E1C934A1E14F1FA007D394D /* KSFDFullscreenPopGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSFDFullscreenPopGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1C934E1E14F1FA007D394D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E1C93501E14F1FA007D394D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E1C93511E14F1FA007D394D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E1C93531E14F1FA007D394D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E1C93541E14F1FA007D394D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E1C93571E14F1FA007D394D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E1C93591E14F1FA007D394D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E1C935C1E14F1FA007D394D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E1C935E1E14F1FA007D394D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1C93631E14F1FA007D394D /* KSFDFullscreenPopGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSFDFullscreenPopGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1C93671E14F1FA007D394D /* KSFDFullscreenPopGestureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSFDFullscreenPopGestureTests.m; sourceTree = "<group>"; };
+		7E1C93691E14F1FA007D394D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1C936E1E14F1FA007D394D /* KSFDFullscreenPopGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSFDFullscreenPopGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1C93721E14F1FA007D394D /* KSFDFullscreenPopGestureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSFDFullscreenPopGestureUITests.m; sourceTree = "<group>"; };
+		7E1C93741E14F1FA007D394D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E1C93471E14F1FA007D394D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1C93601E14F1FA007D394D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1C936B1E14F1FA007D394D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E1C93411E14F1F9007D394D = {
+			isa = PBXGroup;
+			children = (
+				7E1C934C1E14F1FA007D394D /* KSFDFullscreenPopGesture */,
+				7E1C93661E14F1FA007D394D /* KSFDFullscreenPopGestureTests */,
+				7E1C93711E14F1FA007D394D /* KSFDFullscreenPopGestureUITests */,
+				7E1C934B1E14F1FA007D394D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E1C934B1E14F1FA007D394D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E1C934A1E14F1FA007D394D /* KSFDFullscreenPopGesture.app */,
+				7E1C93631E14F1FA007D394D /* KSFDFullscreenPopGestureTests.xctest */,
+				7E1C936E1E14F1FA007D394D /* KSFDFullscreenPopGestureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E1C934C1E14F1FA007D394D /* KSFDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				7E1C93501E14F1FA007D394D /* AppDelegate.h */,
+				7E1C93511E14F1FA007D394D /* AppDelegate.m */,
+				7E1C93531E14F1FA007D394D /* ViewController.h */,
+				7E1C93541E14F1FA007D394D /* ViewController.m */,
+				7E1C93561E14F1FA007D394D /* Main.storyboard */,
+				7E1C93591E14F1FA007D394D /* Assets.xcassets */,
+				7E1C935B1E14F1FA007D394D /* LaunchScreen.storyboard */,
+				7E1C935E1E14F1FA007D394D /* Info.plist */,
+				7E1C934D1E14F1FA007D394D /* Supporting Files */,
+			);
+			path = KSFDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		7E1C934D1E14F1FA007D394D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E1C934E1E14F1FA007D394D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E1C93661E14F1FA007D394D /* KSFDFullscreenPopGestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E1C93671E14F1FA007D394D /* KSFDFullscreenPopGestureTests.m */,
+				7E1C93691E14F1FA007D394D /* Info.plist */,
+			);
+			path = KSFDFullscreenPopGestureTests;
+			sourceTree = "<group>";
+		};
+		7E1C93711E14F1FA007D394D /* KSFDFullscreenPopGestureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E1C93721E14F1FA007D394D /* KSFDFullscreenPopGestureUITests.m */,
+				7E1C93741E14F1FA007D394D /* Info.plist */,
+			);
+			path = KSFDFullscreenPopGestureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E1C93491E14F1FA007D394D /* KSFDFullscreenPopGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1C93771E14F1FA007D394D /* Build configuration list for PBXNativeTarget "KSFDFullscreenPopGesture" */;
+			buildPhases = (
+				7E1C93461E14F1FA007D394D /* Sources */,
+				7E1C93471E14F1FA007D394D /* Frameworks */,
+				7E1C93481E14F1FA007D394D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSFDFullscreenPopGesture;
+			productName = KSFDFullscreenPopGesture;
+			productReference = 7E1C934A1E14F1FA007D394D /* KSFDFullscreenPopGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E1C93621E14F1FA007D394D /* KSFDFullscreenPopGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1C937A1E14F1FA007D394D /* Build configuration list for PBXNativeTarget "KSFDFullscreenPopGestureTests" */;
+			buildPhases = (
+				7E1C935F1E14F1FA007D394D /* Sources */,
+				7E1C93601E14F1FA007D394D /* Frameworks */,
+				7E1C93611E14F1FA007D394D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E1C93651E14F1FA007D394D /* PBXTargetDependency */,
+			);
+			name = KSFDFullscreenPopGestureTests;
+			productName = KSFDFullscreenPopGestureTests;
+			productReference = 7E1C93631E14F1FA007D394D /* KSFDFullscreenPopGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E1C936D1E14F1FA007D394D /* KSFDFullscreenPopGestureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1C937D1E14F1FA007D394D /* Build configuration list for PBXNativeTarget "KSFDFullscreenPopGestureUITests" */;
+			buildPhases = (
+				7E1C936A1E14F1FA007D394D /* Sources */,
+				7E1C936B1E14F1FA007D394D /* Frameworks */,
+				7E1C936C1E14F1FA007D394D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E1C93701E14F1FA007D394D /* PBXTargetDependency */,
+			);
+			name = KSFDFullscreenPopGestureUITests;
+			productName = KSFDFullscreenPopGestureUITests;
+			productReference = 7E1C936E1E14F1FA007D394D /* KSFDFullscreenPopGestureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E1C93421E14F1F9007D394D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wacosoft;
+				TargetAttributes = {
+					7E1C93491E14F1FA007D394D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7E1C93621E14F1FA007D394D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7E1C93491E14F1FA007D394D;
+					};
+					7E1C936D1E14F1FA007D394D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7E1C93491E14F1FA007D394D;
+					};
+				};
+			};
+			buildConfigurationList = 7E1C93451E14F1F9007D394D /* Build configuration list for PBXProject "KSFDFullscreenPopGesture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E1C93411E14F1F9007D394D;
+			productRefGroup = 7E1C934B1E14F1FA007D394D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E1C93491E14F1FA007D394D /* KSFDFullscreenPopGesture */,
+				7E1C93621E14F1FA007D394D /* KSFDFullscreenPopGestureTests */,
+				7E1C936D1E14F1FA007D394D /* KSFDFullscreenPopGestureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E1C93481E14F1FA007D394D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1C935D1E14F1FA007D394D /* LaunchScreen.storyboard in Resources */,
+				7E1C935A1E14F1FA007D394D /* Assets.xcassets in Resources */,
+				7E1C93581E14F1FA007D394D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1C93611E14F1FA007D394D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1C936C1E14F1FA007D394D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E1C93461E14F1FA007D394D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1C93551E14F1FA007D394D /* ViewController.m in Sources */,
+				7E1C93521E14F1FA007D394D /* AppDelegate.m in Sources */,
+				7E1C934F1E14F1FA007D394D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1C935F1E14F1FA007D394D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1C93681E14F1FA007D394D /* KSFDFullscreenPopGestureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1C936A1E14F1FA007D394D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1C93731E14F1FA007D394D /* KSFDFullscreenPopGestureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E1C93651E14F1FA007D394D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E1C93491E14F1FA007D394D /* KSFDFullscreenPopGesture */;
+			targetProxy = 7E1C93641E14F1FA007D394D /* PBXContainerItemProxy */;
+		};
+		7E1C93701E14F1FA007D394D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E1C93491E14F1FA007D394D /* KSFDFullscreenPopGesture */;
+			targetProxy = 7E1C936F1E14F1FA007D394D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E1C93561E14F1FA007D394D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E1C93571E14F1FA007D394D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E1C935B1E14F1FA007D394D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E1C935C1E14F1FA007D394D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E1C93751E14F1FA007D394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E1C93761E14F1FA007D394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E1C93781E14F1FA007D394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = KSFDFullscreenPopGesture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wacosoft.KSFDFullscreenPopGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a1561524-7591-40f7-9dbe-db88d3e468a8";
+			};
+			name = Debug;
+		};
+		7E1C93791E14F1FA007D394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = KSFDFullscreenPopGesture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wacosoft.KSFDFullscreenPopGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a1561524-7591-40f7-9dbe-db88d3e468a8";
+			};
+			name = Release;
+		};
+		7E1C937B1E14F1FA007D394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KSFDFullscreenPopGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wacosoft.KSFDFullscreenPopGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSFDFullscreenPopGesture.app/KSFDFullscreenPopGesture";
+			};
+			name = Debug;
+		};
+		7E1C937C1E14F1FA007D394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KSFDFullscreenPopGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wacosoft.KSFDFullscreenPopGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSFDFullscreenPopGesture.app/KSFDFullscreenPopGesture";
+			};
+			name = Release;
+		};
+		7E1C937E1E14F1FA007D394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KSFDFullscreenPopGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wacosoft.KSFDFullscreenPopGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KSFDFullscreenPopGesture;
+			};
+			name = Debug;
+		};
+		7E1C937F1E14F1FA007D394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KSFDFullscreenPopGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wacosoft.KSFDFullscreenPopGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KSFDFullscreenPopGesture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E1C93451E14F1F9007D394D /* Build configuration list for PBXProject "KSFDFullscreenPopGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1C93751E14F1FA007D394D /* Debug */,
+				7E1C93761E14F1FA007D394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E1C93771E14F1FA007D394D /* Build configuration list for PBXNativeTarget "KSFDFullscreenPopGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1C93781E14F1FA007D394D /* Debug */,
+				7E1C93791E14F1FA007D394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E1C937A1E14F1FA007D394D /* Build configuration list for PBXNativeTarget "KSFDFullscreenPopGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1C937B1E14F1FA007D394D /* Debug */,
+				7E1C937C1E14F1FA007D394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E1C937D1E14F1FA007D394D /* Build configuration list for PBXNativeTarget "KSFDFullscreenPopGestureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1C937E1E14F1FA007D394D /* Debug */,
+				7E1C937F1E14F1FA007D394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E1C93421E14F1F9007D394D /* Project object */;
+}
