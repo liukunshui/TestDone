@@ -25,15 +25,30 @@
     [btn addTarget:self action:@selector(go) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
 
-    
+    UIButton *Push2 = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    Push2.backgroundColor = [UIColor lightGrayColor];
+    [Push2 setTitle:@"Push2" forState:UIControlStateNormal];
+    Push2.frame = CGRectMake(10,100+89, 80,40);
+    [Push2 addTarget:self action:@selector(go1) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:Push2];
     // Do any additional setup after loading the view, typically from a nib.
 }
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:YES];
+    
+    
     self.navigationController.navigationBarHidden = YES;
+}
+-(void)go1{
+    KS_OneViewController *one =[[KS_OneViewController alloc]init];
+    
+    
+    [self.navigationController pushViewController:one animated:YES];
 }
 -(void)go{
     KS_OneViewController *one =[[KS_OneViewController alloc]init];
+    
+    
     [self.navigationController pushViewController:one animated:YES];
 }
 - (void)didReceiveMemoryWarning {
